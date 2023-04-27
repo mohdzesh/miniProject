@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.search {
+  margin: 20px;
+  border: black solid 1px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.input-search {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-family: poppins;
+}
+
+.search-btn {
+  background-color: black;
+  font-size: 14px;
+  padding: 11px 20px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.citylabel {
+  font-family: poppins;
+  color: black;
+  margin: 10px auto;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.weather-logo {
+  width: 320px;
+  height: 320px;
+  margin: 40px auto;
+}
+
+/*  */
+
+.info-cont {
+  display: flex;
+  margin: 5px 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.info-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.info-label > span {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* Weather information */
+
+.weather-info {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.condition {
+  margin: 0px auto;
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 100px;
+}
+
+.condition > span {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.wea-icon {
+  width: 100px;
+  height: 100px;
+  margin: 5px auto;
+}
+
+.location {
+  margin: 10px auto;
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.wea-label {
+  margin: 20px 25px 10px;
+  text-transform: capitalize;
+  width: 90%;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 100px;
+  letter-spacing: 2px;
+}
+
+.wea-info {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wea-btn {
+  background-color: black;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: poppins;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
+  height: 80vh;
+  padding: 20px 10px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: white;
+  font-family: poppins;
+}
+
+.myInfo {
+  height: 90px;
+  width: 100vw;
+  font-family: roboto;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  background-color: coral;
+}
+
+.back-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
